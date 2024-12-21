@@ -1,0 +1,68 @@
+.body3{
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+  background-color:  rgb(5, 2, 33);
+}
+h1{
+  color: aliceblue;
+  font-family: arial;
+  margin : auto;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 15%;
+  padding: 20px;
+  width: 450px;
+  height: fit-content;
+  border : 2px solid rgb(0, 145, 255);
+  border-radius: 10px;
+}
+form input{
+  font-size: large;
+  padding : 12px;
+  border-radius: 10px;
+}
+button{
+  display: flex;
+  width:fit-content;
+  margin: auto;
+  color : white;
+  background-color: rgb(0, 145, 255);
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 19px;
+  gap: 10px;
+} 
+ button img{
+  width: 25px;
+  height: 25px;
+  color:white;
+}
+/* @keyframes send-btn {
+  0%{
+    bottom: 0px;
+    right:0px;
+  }
+  100%{
+   bottom :200px;
+   right:0px;
+  }
+  
+} */
+
+.parent-div{
+  display: flex;
+  flex-direction: column;
+}
+.tool{
+  margin-top: 20px;
+  display:flex;
+}
+.tool button{
+  border-radius: 50%;
+  
+}

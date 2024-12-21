@@ -1,0 +1,56 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color:rgb(5, 2, 33);
+
+}
+.project-heading{
+  color: aquamarine;
+  margin-top: 5%;
+}
+.project-container{
+  /* background-color: aqua; */
+  color:antiquewhite;
+  display:flex ;
+  flex-direction: row;
+  width:auto;
+  /* margin:5%; */
+  padding: 5%;
+  gap: 3%;
+  row-gap:25px ;
+  flex-wrap:wrap;
+}
+.project{
+  position: relative;
+  width: 300px;
+  height:200px;
+  /* background-color: green; */
+  border: 3px solid sandybrown;
+  border-radius: 15px 15px 15px 15px;
+  text-align: center;
+  animation: drop ease 0.9s;
+}
+
+@keyframes drop 
+{
+   0%
+    {
+     transform: translateY(-100%);
+     } 
+
+   100%
+    {
+       transform: translateY(0%);
+     }
+}
+
+.project:hover{
+  margin-top: -10px;
+}
+.project-button{
+  /* width:100%; */
+  position:relative;
+ margin-top:22%;
+}

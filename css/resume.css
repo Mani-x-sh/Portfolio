@@ -1,0 +1,23 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  rgb(5, 2, 33);
+  
+}
+.resume{
+ 
+ width: 900px;
+ height: 700px;
+ 
+}
+p{
+  text-align: center  ;
+  font-size: xx-large;
+ color:orangered;
+}
+object{
+  width: 900px;
+  height: 800px;
+  
+}

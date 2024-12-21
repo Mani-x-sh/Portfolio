@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.body2
+{
+font-family: Arial, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(5, 2, 33);
+} 
+.main-container
+{
+padding:10px;
+margin-top:10%;
+background-color:rgb(5, 2, 33);
+width:600px;
+border: 2px solid #264de4;
+border-radius: 10%;
+
+}
+p{
+  text-align: center;
+  margin-top:25px;
+  color: #ffffff;
+  font-size: x-large;
+}
+.skill
+{
+  margin: 20px ;
+} 
+.skill-name
+{
+  color: #ffffff;
+  padding: 5px;
+  font-weight: bold;
+}
+.progress-bar
+{
+  width:100%;
+  background-color:#000;
+  overflow: hidden;
+}
+.progress
+{
+  position: relative;
+  animation:show ease 1s;
+  overflow: hidden;
+  height: 20px;
+  border-radius: 25px;
+  text-align: right;
+  padding-right: 10px;
+  color: rgb(254, 252, 252);
+  line-height: 20px;
+} 
+@keyframes show{
+  0%{
+   left :-100%;
+  }
+  100%{
+   left:0%;
+  }
+}
+.html{
+  background-color: #e34c26;
+  width: 90%;
+}
+.css
+{
+  background-color: #264de4;
+  width: 65%;
+}
+.javascript
+{
+  background-color: #f0db4f;
+  width: 65%;
+} 
+.react{
+  background-color: #02510e;
+  width: 40%;
+}

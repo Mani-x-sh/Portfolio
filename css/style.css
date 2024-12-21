@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body1{
+    background-color: rgb(5, 2, 33);
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.left{
+    padding-top: 10%;
+    width: 900px;
+}
+img{
+    width: 80%;   
+}
+h1{
+    color: rgb(247, 244, 242);
+    position: relative;
+    animation: mymove 2s  ease;
+    left : 220px;
+    font-size: 45px;
+    
+}
+
+/* h1 anmimation here.... */
+
+@keyframes mymove {
+    0% {
+        left : -240px;
+        
+        /* transform : rotate(0deg); */
+    }
+   
+    100% {
+        left : 220px;
+       
+        /* transform : rotate(360deg); */
+    }
+}
+.custom-name{
+    color:orangered;
+}
+ h3{ 
+    font-size: 25px;
+    margin-top: 3%;
+    padding-left: 40%;
+    color:rgb(13, 83, 145);
+}
+.header {
+    color:rgb(160, 66, 163);
+    padding:30px;
+    display: flex;
+    gap: 40px;
+    font-size: large;
+    justify-content: end;
+    font-weight:bold;
+}
+.header a{
+    color:rgb(160, 66, 163);
+    text-decoration: none;
+}
+.header span:hover{
+    color :rgb(246, 6, 254);
+    transition : 0.5s;
+    cursor: pointer;
+    background-color: rgb(16, 2, 2);   
+}
+.tool2{
+    display: flex;
+    margin-left:30%;
+    margin-top: 10%;
+    padding: 10px;
+    gap:15px;
+}
+.tool2 button{
+    
+    background-color: rgb(0, 145, 255);;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.tool2 button img{
+    width: 40px;
+    height:40px;
+}
